@@ -1,0 +1,11 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'apt'
+cookbook 'bluepill'
+cookbook 'build-essential'
+cookbook 'mongodb'
+cookbook 'nginx'
+cookbook 'nodejs'
+cookbook 'ohai'
+cookbook 'rsyslog'
+cookbook 'runit'
