@@ -22,3 +22,11 @@ Besure to be in the `<zobirds root directory>/Vagrant` directory and run:
 vagrant up
 vagrant ssh
 ```
+
+### NGINX
+
+Current proxy pass is set to port 3000.
+
+```
+proxy_pass http://127.0.0.1:3000;
+```
