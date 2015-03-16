@@ -16,7 +16,7 @@ The dev environment requires the vagrant-berkshelf plugin:
 vagrant plugin install vagrant-berkshelf
 ```
 
-Besure to be in the `<zobirds root directory>/Vagrant` directory and run:
+Besure to be in the `<root directory>/vagrant` directory and run:
 
 ```
 vagrant up
@@ -30,3 +30,8 @@ Current proxy pass is set to port 3000.
 ```
 proxy_pass http://127.0.0.1:3000;
 ```
+
+### Shared directory
+
+Current shared directory is the directory up from where this project has been cloned. In other words, all sibling directories will be shared within the VM.
+
