@@ -1,0 +1,17 @@
+alias ls='ls -G'
+alias ll='ls -al'
+
+# Path ------------------------------------------------------------
+if [ -f ~/.bash_path ]; then
+  source ~/.bash_path
+fi
+
+# Load prompt
+if [ -f ~/.bash_prompt ]; then
+    source ~/.bash_prompt
+fi
+
+# Load alias'
+if [ -f ~/.bash_alias ]; then
+    source ~/.bash_alias
+fi

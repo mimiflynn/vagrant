@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source project/vagrant/nginx/setup.sh
-source project/vagrant/npm/setup.sh
+source projects/vagrant/nginx/setup.sh
+source projects/vagrant/npm/setup.sh
+source projects/vagrant/bash/setup.sh
